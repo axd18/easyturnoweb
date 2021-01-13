@@ -6,13 +6,12 @@ const sectionOne = () => {
 <section>
 	<div className="bg-gray-200 container max-w-full mx-auto py-24 px-6">
 		<h1
-			className="text-center text-4xl text-black font-medium leading-snug"
+			className="text-center text-4xl text-gray-700 font-bold leading-snug"
 			>
 			Precio
 		</h1>
 		<p className="text-center text-lg text-gray-700 mt-2 px-6">
-			Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-			accusantium doloremque laudantium, totam rem aperiam.
+			Elegí el plan que mejor se adapte a tu negocio.
 		</p>
 
 
@@ -22,14 +21,14 @@ const sectionOne = () => {
 				className=" bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden mx-4"
 			>
 				<div
-					className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6"
+					className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-gray-700 px-8 lg:px-6"
 				>
 					<h1
 					className="text-lg font-medium uppercase p-3 pb-0 text-center tracking-wide"
 					>
 					Plan Básico
 					</h1>
-					<h2 className="text-3xl text-gray-500 text-center pb-6">usd 24/mes</h2>
+					<h2 className="text-3xl text-gray-500 text-center pb-6">USD 17/mes</h2>
 					Máxima funcionalidad en administración y gestión de Turnos.
 				</div>
 
@@ -37,7 +36,7 @@ const sectionOne = () => {
 					<ul>
 						<li className="flex items-center">
 							<div
-								className=" rounded-full p-2 fill-current text-green-700"
+								className=" rounded-full p-2 fill-current text-gray-700"
 							>
 								<svg
 										className="w-6 h-6 align-middle"
@@ -62,7 +61,7 @@ const sectionOne = () => {
 						</li>
 						<li className="flex items-center">
 							<div
-								className=" rounded-full p-2 fill-current text-green-700"
+								className=" rounded-full p-2 fill-current text-gray-700"
 								>
 								<svg
 									className="w-6 h-6 align-middle"
@@ -87,7 +86,7 @@ const sectionOne = () => {
 						</li>
 						<li className="flex items-center">
 							<div
-								className=" rounded-full p-2 fill-current text-green-700"
+								className=" rounded-full p-2 fill-current text-gray-700"
 							>
 								<svg
 									className="w-6 h-6 align-middle"
@@ -112,7 +111,7 @@ const sectionOne = () => {
 						</li>
 						<li className="flex items-center">
 							<div
-								className=" rounded-full p-2 fill-current text-green-700"
+								className=" rounded-full p-2 fill-current text-gray-700"
 							>
 								<svg
 									className="w-6 h-6 align-middle"
@@ -138,7 +137,7 @@ const sectionOne = () => {
 						
 						<li className="flex items-center">
 							<div
-								className=" rounded-full p-2 fill-current text-green-700"
+								className=" rounded-full p-2 fill-current text-gray-700"
 							>
 								<svg
 									className="w-6 h-6 align-middle"
@@ -166,10 +165,10 @@ const sectionOne = () => {
 				<div className="block flex items-center p-8  uppercase">
 					<button
 						className="mt-3 text-lg font-semibold 
-						bg-black w-full text-white rounded-lg 
-						px-6 py-3 block shadow-xl hover:bg-gray-700"
+						bg-gray-700 w-full text-white rounded-lg 
+						px-6 py-3 block shadow-xl hover:bg-gray-600"
 					>
-					Select
+					Elegir
 					</button>
 				</div>
 			</div>
@@ -178,14 +177,14 @@ const sectionOne = () => {
 				className=" bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden mx-4"
 			>
 				<div
-					className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6"
+					className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-gray-700 px-8 lg:px-6"
 				>
 					<h1
 					className="text-lg font-medium uppercase p-3 pb-0 text-center tracking-wide"
 					>
 					Plan Premium
 					</h1>
-					<h2 className="text-sm text-gray-500 text-center pb-6">usd 24/mes</h2>
+					<h2 className="text-3xl text-gray-500 text-center pb-6">USD 24/mes</h2>
 					Máxima funcionalidad en administración y gestión de Turnos.
 				</div>
 
@@ -193,7 +192,7 @@ const sectionOne = () => {
 					<ul>
 						<li className="flex items-center">
 							<div
-								className=" rounded-full p-2 fill-current text-green-700"
+								className=" rounded-full p-2 fill-current text-gray-700"
 							>
 								<svg
 										className="w-6 h-6 align-middle"
@@ -218,7 +217,7 @@ const sectionOne = () => {
 						</li>
 						<li className="flex items-center">
 							<div
-								className=" rounded-full p-2 fill-current text-green-700"
+								className=" rounded-full p-2 fill-current text-gray-700"
 								>
 								<svg
 									className="w-6 h-6 align-middle"
@@ -243,7 +242,7 @@ const sectionOne = () => {
 						</li>
 						<li className="flex items-center">
 							<div
-								className=" rounded-full p-2 fill-current text-green-700"
+								className=" rounded-full p-2 fill-current text-gray-700"
 							>
 								<svg
 									className="w-6 h-6 align-middle"
@@ -268,7 +267,7 @@ const sectionOne = () => {
 						</li>
 						<li className="flex items-center">
 							<div
-								className=" rounded-full p-2 fill-current text-green-700"
+								className=" rounded-full p-2 fill-current text-gray-700"
 							>
 								<svg
 									className="w-6 h-6 align-middle"
@@ -293,7 +292,7 @@ const sectionOne = () => {
 						</li>
 						<li className="flex items-center">
 							<div
-								className=" rounded-full p-2 fill-current text-green-700"
+								className=" rounded-full p-2 fill-current text-gray-700"
 							>
 								<svg
 									className="w-6 h-6 align-middle"
@@ -314,11 +313,11 @@ const sectionOne = () => {
 									></polyline>
 								</svg>
 							</div>
-							<span className="text-gray-700 text-lg ml-3">Integración a la web de tu empresa</span>
+							<span className="text-gray-700 text-lg ml-3">Integración a la web de tu negocio</span>
 						</li>
 						<li className="flex items-center">
 							<div
-								className=" rounded-full p-2 fill-current text-green-700"
+								className=" rounded-full p-2 fill-current text-gray-700"
 							>
 								<svg
 									className="w-6 h-6 align-middle"
@@ -343,7 +342,7 @@ const sectionOne = () => {
 						</li>
 						<li className="flex items-center">
 							<div
-								className=" rounded-full p-2 fill-current text-green-700"
+								className=" rounded-full p-2 fill-current text-gray-700"
 							>
 								<svg
 									className="w-6 h-6 align-middle"
@@ -371,10 +370,10 @@ const sectionOne = () => {
 				<div className="block flex items-center p-8  uppercase">
 					<button
 						className="mt-3 text-lg font-semibold 
-						bg-black w-full text-white rounded-lg 
-						px-6 py-3 block shadow-xl hover:bg-gray-700"
+						bg-gray-700 w-full text-white rounded-lg 
+						px-6 py-3 block shadow-xl hover:bg-gray-600"
 					>
-					Select
+					Elegir
 					</button>
 				</div>
 			</div>
