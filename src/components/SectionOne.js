@@ -18,7 +18,7 @@ const sectionOne = () => {
 
 		<div class="container mx-auto flex justify-center mt-10">
 
-			<div
+		<div
 				className=" bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden mx-4"
 			>
 				<div
@@ -29,12 +29,8 @@ const sectionOne = () => {
 					>
 					Plan Básico
 					</h1>
-					<h2 className="text-sm text-gray-500 text-center pb-6">usd 17/mes</h2>
-						Todo el Servicio de gestion y Administracion de Turno
-						Direccion Web en Easy Turno
-						Servicio Tecnico 24/7 Web easy.
-						Boton de Whatsaap en Pagina Principal .(Opcional)
-						Plantilla Estandar + Logo Empresa.
+					<h2 className="text-3xl text-gray-500 text-center pb-6">usd 24/mes</h2>
+					Máxima funcionalidad en administración y gestión de Turnos.
 				</div>
 
 				<div className="flex flex-wrap mt-3 px-6">
@@ -113,6 +109,57 @@ const sectionOne = () => {
 								</svg>
 							</div>
 							<span className="text-gray-700 text-lg ml-3">Plantilla</span>
+						</li>
+						<li className="flex items-center">
+							<div
+								className=" rounded-full p-2 fill-current text-green-700"
+							>
+								<svg
+									className="w-6 h-6 align-middle"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path
+									d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
+									></path>
+									<polyline
+									points="22 4 12 14.01 9 11.01"
+									></polyline>
+								</svg>
+							</div>
+							<span className="text-gray-700 text-lg ml-3">Logo</span>
+						</li>
+						
+						<li className="flex items-center">
+							<div
+								className=" rounded-full p-2 fill-current text-green-700"
+							>
+								<svg
+									className="w-6 h-6 align-middle"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path
+									d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
+									></path>
+									<polyline
+									points="22 4 12 14.01 9 11.01"
+									></polyline>
+								</svg>
+							</div>
+							<span className="text-gray-700 text-lg ml-3">Dirección Web en Easy Turno</span>
 						</li>
 					</ul> 
 				</div>  
@@ -136,14 +183,10 @@ const sectionOne = () => {
 					<h1
 					className="text-lg font-medium uppercase p-3 pb-0 text-center tracking-wide"
 					>
-					Plan Básico
+					Plan Premium
 					</h1>
-					<h2 className="text-sm text-gray-500 text-center pb-6">usd 17/mes</h2>
-						Todo el Servicio de gestion y Administracion de Turno
-						Direccion Web en Easy Turno
-						Servicio Tecnico 24/7 Web easy.
-						Boton de Whatsaap en Pagina Principal .(Opcional)
-						Plantilla Estandar + Logo Empresa.
+					<h2 className="text-sm text-gray-500 text-center pb-6">usd 24/mes</h2>
+					Máxima funcionalidad en administración y gestión de Turnos.
 				</div>
 
 				<div className="flex flex-wrap mt-3 px-6">
@@ -222,6 +265,106 @@ const sectionOne = () => {
 								</svg>
 							</div>
 							<span className="text-gray-700 text-lg ml-3">Plantilla</span>
+						</li>
+						<li className="flex items-center">
+							<div
+								className=" rounded-full p-2 fill-current text-green-700"
+							>
+								<svg
+									className="w-6 h-6 align-middle"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path
+									d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
+									></path>
+									<polyline
+									points="22 4 12 14.01 9 11.01"
+									></polyline>
+								</svg>
+							</div>
+							<span className="text-gray-700 text-lg ml-3">Logo</span>
+						</li>
+						<li className="flex items-center">
+							<div
+								className=" rounded-full p-2 fill-current text-green-700"
+							>
+								<svg
+									className="w-6 h-6 align-middle"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path
+									d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
+									></path>
+									<polyline
+									points="22 4 12 14.01 9 11.01"
+									></polyline>
+								</svg>
+							</div>
+							<span className="text-gray-700 text-lg ml-3">Integración a la web de tu empresa</span>
+						</li>
+						<li className="flex items-center">
+							<div
+								className=" rounded-full p-2 fill-current text-green-700"
+							>
+								<svg
+									className="w-6 h-6 align-middle"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path
+									d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
+									></path>
+									<polyline
+									points="22 4 12 14.01 9 11.01"
+									></polyline>
+								</svg>
+							</div>
+							<span className="text-gray-700 text-lg ml-3">QR con acceso a tu Easy Turno</span>
+						</li>
+						<li className="flex items-center">
+							<div
+								className=" rounded-full p-2 fill-current text-green-700"
+							>
+								<svg
+									className="w-6 h-6 align-middle"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path
+									d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
+									></path>
+									<polyline
+									points="22 4 12 14.01 9 11.01"
+									></polyline>
+								</svg>
+							</div>
+							<span className="text-gray-700 text-lg ml-3">Dirección Web en Easy Turno</span>
 						</li>
 					</ul> 
 				</div>  
