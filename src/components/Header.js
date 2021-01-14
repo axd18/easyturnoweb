@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../assets/img/logo-easy-turno.svg';
 
 const Header = () => {
     return ( 
@@ -9,9 +10,8 @@ const Header = () => {
         className="md:max-w-6xl md:mx-auto md:flex md:items-center md:justify-between"
       >
           <div className="flex justify-between items-center">
-          <p href="#" className="inline-block py-2 text-white text-xl font-bold"
-            >Easy Turno</p
-          ></div>
+            <img src={logo}/>
+          </div>
           <div
             className="inline-block cursor-pointer md:hidden">
             <div className="bg-gray-400 w-8 mb-2"></div>
