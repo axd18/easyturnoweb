@@ -12,12 +12,12 @@ const QueEs = () => {
 		    <p className="text-center text-lg text-gray-700 mt-2 px-6">
 			Elegí el plan que mejor se adapte a tu negocio.
 		    </p>
-            <div className="grid grid-cols-2 gap-3 md:max-w-6xl md:mx-auto">
-                <div className=" text-left font-medium text-xl text-gray-700 mt-2 px-6">
+            <div className="grid grid-cols-2 gap-3 md:max-w-6xl md:mx-auto ">
+                <div className=" text-left font-medium text-3xl text-gray-700 mt-2 px-6 leading-10 self-center">
                     <p>Easy Turno es un formulario que le permite a tus clientes solicitar turnos que te llegan al calendario de tu celular.</p>
                 </div>
-                <div className="">
-                    <img src={calendar}/>
+                <div className=" object-contain w-72" >
+                    <img className=""src={calendar}/>
                 </div>
             </div>
         </div>
