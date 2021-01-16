@@ -3,11 +3,11 @@ import mobil from '../assets/img/mobil.png'
 
 const Main = () => {
     return ( 
-        <div className="bg-gray-800 md:overflow-hidden">
+        <div className="bg-gray-800">
               <div className="px-4 py-20 md:py-4">
                 <div className="md:max-w-6xl md:mx-auto">
                   <div className="md:flex md:flex-wrap">
-                    <div className="md:w-1/2 text-center md:text-left md:pt-16">
+                    <div className=" md:w-1/2 text-center md:text-left md:pt-16">
                       <h1
                         className="font-bold text-white text-2xl md:text-5xl leading-tight mb-4"
                       >
@@ -24,12 +24,12 @@ const Main = () => {
                         >Get Started</p
                       > */}
                     </div>
-                      <div className="md:w-1/2 absolute flex justify-center z-2">
-                        <img src={mobil}/>
+                      <div className=" md:w-1/2 absolute inset-y-0 right-0 mt-40">
+                        <img src={mobil} alt="mobil"/>
                       </div>
                   </div>
                 </div>
-          </div>
+              </div>
             <svg
               className="fill-current text-white hidden md:block"
               xmlns="http://www.w3.org/2000/svg"

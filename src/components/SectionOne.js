@@ -3,7 +3,7 @@ import React from 'react';
 const sectionOne = () => {
     return ( 
         
-<section>
+
 	<div className="bg-gray-200 container max-w-full mx-auto py-24 px-6">
 		<h1
 			className="text-center text-4xl text-gray-700 font-bold leading-snug"
@@ -381,7 +381,6 @@ const sectionOne = () => {
 		</div>
 		
 	</div>
-</section>
 	 
 	 );
 }
