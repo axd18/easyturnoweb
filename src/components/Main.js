@@ -24,7 +24,7 @@ const Main = () => {
                         >Get Started</p
                       > */}
                     </div>
-                      <div className="md:w-1/2 relative flex justify-center z-2">
+                      <div className="md:w-1/2 absolute flex justify-center z-2">
                         <img src={mobil}/>
                       </div>
                   </div>
