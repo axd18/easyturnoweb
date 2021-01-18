@@ -4,7 +4,7 @@ const sectionOne = () => {
     return ( 
         
 
-	<div className="bg-gradient-to-r from-purple-900 via-purple-700 to-purple-500 container max-w-full mx-auto py-24 px-6">
+	<div className=" container max-w-full mx-auto py-24 px-6">
 		<h1
 			className="text-center text-4xl text-gray-700 font-bold leading-snug"
 			>
