@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import SectionOne from './components/SectionOne';
 import QueEs from './components/QueEs';
+import ComoFunciona from './components/ComoFunciona';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Main />
       <QueEs />
+      <ComoFunciona />
       <SectionOne />
     </>
   );

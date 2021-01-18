@@ -4,7 +4,7 @@ const sectionOne = () => {
     return ( 
         
 
-	<div className="bg-gray-200 container max-w-full mx-auto py-24 px-6">
+	<div className="bg-gradient-to-r from-purple-900 via-purple-700 to-purple-500 container max-w-full mx-auto py-24 px-6">
 		<h1
 			className="text-center text-4xl text-gray-700 font-bold leading-snug"
 			>
@@ -174,7 +174,7 @@ const sectionOne = () => {
 			</div>
 
 			<div
-				className=" bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden mx-4"
+				className=" bg-white text-black rounded-lg  shadow-lg overflow-hidden mx-4"
 			>
 				<div
 					className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-gray-700 px-8 lg:px-6"
@@ -379,7 +379,7 @@ const sectionOne = () => {
 			</div>
 
 		</div>
-		
+
 	</div>
 	 
 	 );

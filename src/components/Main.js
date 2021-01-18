@@ -3,9 +3,9 @@ import mobil from '../assets/img/mobil.png'
 
 const Main = () => {
     return ( 
-        <div className="bg-gray-800">
-              <div className="px-4 py-20 md:py-4">
-                <div className="md:max-w-6xl md:mx-auto">
+        <div className="bg-gradient-to-r from-purple-900 via-purple-700 to-purple-500 ">
+              <div className="px-4 py-20 md:py-4 ">
+                <div className="md:max-w-6xl md:mx-auto ">
                   <div className="md:flex md:flex-wrap">
                     <div className=" md:w-1/2 text-center md:text-left md:pt-16">
                       <h1
@@ -14,15 +14,15 @@ const Main = () => {
                         La manera más fácil de gestionar tus turnos.
                       </h1>
 
-                      <p className="text-indigo-200 md:text-xl md:pr-48">
+                      <p className="text-white md:text-xl md:pr-48">
                         Con tu calendario gestionás los turnos que llegan desde un formulario online personalizado para tu negocio.
                       </p>
 
-                      {/* <p
+                      <p
                         href="#"
-                        className="mt-6 mb-12 md:mb-0 md:mt-10 inline-block py-3 px-8 text-white bg-gray-500 hover:bg-gray-600 rounded-lg shadow"
-                        >Get Started</p
-                      > */}
+                        className="mt-6 mb-12 md:mb-0 md:mt-10 inline-block py-3 px-8 text-white bg-gray-500 hover:bg-blue-600 rounded-lg shadow bg-blue-500"
+                        >Contactanos</p
+                      >
                     </div>
                       <div className=" md:w-1/2 absolute inset-y-0 right-0 mt-40">
                         <img src={mobil} alt="mobil"/>
