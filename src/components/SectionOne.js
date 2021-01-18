@@ -174,7 +174,7 @@ const sectionOne = () => {
 			</div>
 
 			<div
-				className=" bg-white text-black rounded-lg  shadow-lg overflow-hidden mx-4"
+				className=" bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden mx-4"
 			>
 				<div
 					className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-gray-700 px-8 lg:px-6"
