@@ -9,8 +9,7 @@ const Main = () => {
                   <div className="md:flex md:flex-wrap">
                     <div className=" md:w-1/2 text-center md:text-left md:pt-16">
                       <h1
-                        className="font-bold text-white text-2xl md:text-5xl leading-tight mb-4"
-                      >
+                        className="font-bold text-white text-2xl md:text-5xl leading-tight mb-4">
                         La manera más fácil de gestionar tus turnos.
                       </h1>
 
