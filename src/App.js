@@ -7,6 +7,7 @@ import SectionOne from './components/SectionOne';
 import QueEs from './components/QueEs';
 import ComoFunciona from './components/ComoFunciona';
 import Form from './components/Form';
+import Faq from './components/Faq';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <QueEs />
       <ComoFunciona />
       <SectionOne />
+      <Faq />
       <Form />
     </>
   );

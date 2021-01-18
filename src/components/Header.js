@@ -10,7 +10,7 @@ const Header = () => {
         className="md:max-w-6xl md:mx-auto md:flex md:items-center md:justify-between"
       >
           <div className="object-contain w-20 pt-4">
-            <img src={logo} />
+            <img src={logo} alt="logo"/>
           </div>
           <div
             className="inline-block cursor-pointer md:hidden">
@@ -28,13 +28,15 @@ const Header = () => {
             <p
               href="#"
               className="inline-block py-1 md:py-4 hover:text-gray-100 mr-6"
-              >¿Cómo funciona?</p
-            >
+              >¿Cómo funciona?</p>
             <p
               href="#"
+              className="inline-block py-1 md:py-4 hover:text-gray-100 mr-6"
+              >Precio</p>
+              <p
+              href="#"
               className="inline-block py-1 md:py-4 hover:text-gray-100"
-              >Precio</p
-            >
+              >FAQ</p>
           </div>
         </div>
       </div>
