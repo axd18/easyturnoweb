@@ -2,13 +2,16 @@ import React from 'react';
 
 const Form = () => {
     return ( 
-        <div>
+        <div className="bg-gray-200">
             <h1
-                className="text-center text-4xl text-gray-700 font-bold leading-snug mb-6"
+                className="text-center text-4xl text-gray-700 font-bold leading-snug "
                 >
                 Contacto
             </h1>
-            <div class="max-w-2xl bg-gray-200 py-10 px-5 m-auto w-full mt-10 rounded-lg">
+            <div
+                class="h-1 mx-auto bg-gradient-to-r from-purple-700 to-purple-500 w-24  mt-3 rounded"
+            ></div>
+            <div class="max-w-2xl bg-white py-10 px-5 m-auto w-full mt-10 rounded-lg">
 
 
             <div class="grid grid-cols-2 gap-4 max-w-xl m-auto ">

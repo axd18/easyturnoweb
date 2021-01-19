@@ -9,6 +9,9 @@ const QueEs = () => {
 			>
 			¿Cómo funciona?
 		    </h1>
+            <div
+                class="h-1 mx-auto bg-gradient-to-r from-purple-700 to-purple-500 w-24  mt-3 rounded"
+            ></div>
             <div className="grid grid-cols-2 gap-3 md:max-w-6xl md:mx-auto ">
                 <div className=" object-contain w-72" >
                     <img src={como}/>
