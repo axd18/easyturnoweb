@@ -3,7 +3,7 @@ import como from '../assets/img/como.svg';
 
 const QueEs = () => {
     return (
-        <div className="container max-w-full mx-auto py-24 px-6">
+        <div className="mt-20">
             <h1
 			className="text-center text-4xl text-gray-700 font-bold leading-snug"
 			>
@@ -17,6 +17,13 @@ const QueEs = () => {
                     <p>Mediante una url que contiene el formulario del turno y éste llega a tu calendario en el celular, tablet o computadora. Así de simple.</p>
                 </div>
             </div>
+            <svg
+              className="fill-current text-purple-700 hidden md:block"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1440 320"
+            >
+              <path fill-opacity="1" d="M0,224L1440,32L1440,320L0,320Z"></path>
+            </svg>
         </div>
     );
 }

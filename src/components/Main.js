@@ -19,7 +19,7 @@ const Main = () => {
 
                       <p
                         href="#"
-                        className="mt-6 mb-12 md:mb-0 md:mt-10 inline-block py-3 px-8 text-white bg-gray-500 hover:bg-blue-600 rounded-lg shadow bg-blue-500"
+                        className="mt-6 mb-12 md:mb-0 md:mt-10 inline-block py-3 px-8 text-white hover:bg-blue-600 rounded-lg shadow bg-blue-500"
                         >Contactanos</p
                       >
                     </div>

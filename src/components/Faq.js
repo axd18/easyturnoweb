@@ -5,7 +5,7 @@ const Faq = () => {
     return ( 
     
 <div>
-      <section class="text-gray-700">
+      <section class="text-gray-700 mb-20">
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">
             <h1 class="text-center text-4xl text-gray-700 font-bold leading-snug">
@@ -17,6 +17,7 @@ const Faq = () => {
           </div>
           <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
             <div class="w-full lg:w-1/2 px-4 py-2">
+              <h1 className=" text-2xl text-gray-700 font-bold text-gray-700 pb-4">Preguntas del que pide el turno</h1>
               <details class="mb-4">
                 <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
                   ¿Cómo puedo reservar un turno?
@@ -47,8 +48,6 @@ const Faq = () => {
                 Los datos de su reserva serán enviados a la casilla de correo la cual registre en el Formulario. Recuerde revisar las casilla de correo de no deseado , ya que por seguridad su servidor puede enviar como spam.
                 </span>
               </details>
-            </div>
-            <div class="w-full lg:w-1/2 px-4 py-2">
               <details class="mb-4">
                 <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
                   ¿Qué sucede si no me llega ningún correo y ya me confirmo el turno?
@@ -58,26 +57,35 @@ const Faq = () => {
                 En ese caso pasada las 3hs de realizar el turno aun no recibe el correo, le pedimos que se comunique con el mail que aparece debajo de la web , enviando la información sus datos y qué día y hora hizo la reserva, para consultar si esta registrado su turno.
                 </span>
               </details>
+            </div>
+            <div class="w-full lg:w-1/2 px-4 py-2">
+            <h1 className=" text-2xl text-gray-700 font-bold text-gray-700 pb-4">Preguntas del administrador de turnos</h1>
               <details class="mb-4">
                 <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                  How many sites I can create at once?
+                  ¿Dónde esta registrados mis turnos??
                 </summary>
 
                 <span class="px-4 py-2">
-                  Laboris qui labore cillum culpa in sunt quis sint veniam.
-                  Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                  minim velit nostrud pariatur culpa magna in aute.
+                Los turnos al cual han reservado esta en la base de dato de calendario en  la cuenta la cual le es asignado en el momento de adquirir Easy Turno.
                 </span>
               </details>
               <details class="mb-4">
                 <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                  How can I communicate with you?
+                ¿Cómo me puedo contactar con un usuario que haya registrado un turno?
                 </summary>
 
                 <span class="px-4 py-2">
-                  Laboris qui labore cillum culpa in sunt quis sint veniam.
-                  Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                  minim velit nostrud pariatur culpa magna in aute.
+                Ya dentro de su calendario, podrá cliquear en el turno , y observar todos los datos referente al mismo, mail, teléfono nombre Etc.
+                Mediante cualquier de esas vías puede contactar con el usuario que haya registrado el turno.
+                </span>
+              </details>
+              <details class="mb-4">
+                <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
+                ¿Qué tareas puedo realizar con mi calendario de turnos?
+                </summary>
+
+                <span class="px-4 py-2">
+                Usted puede reasignar , borrar, cambiar, observar todos los datos de quién hace su reserva,  colorear, reenviarse recordatorios y mas funcionalidades que le son asignadas a su calendario.
                 </span>
               </details>
             </div>

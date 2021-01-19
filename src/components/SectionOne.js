@@ -4,21 +4,22 @@ const sectionOne = () => {
     return ( 
         
 
-	<div className=" container max-w-full mx-auto py-24 px-6">
+	<div className=" bg-purple-700">
+		
 		<h1
-			className="text-center text-4xl text-gray-700 font-bold leading-snug"
+			className="text-center text-4xl text-white font-bold leading-snug "
 			>
 			Precio
 		</h1>
-		<p className="text-center text-lg text-gray-700 mt-2 px-6">
+		<p className="text-center text-lg text-white mt-2 px-6">
 			Elegí el plan que mejor se adapte a tu negocio.
 		</p>
 
 
-		<div class="container mx-auto flex justify-center mt-10">
+		<div class="container mx-auto flex justify-center mt-10 ">
 
 		<div
-				className=" bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden mx-4"
+				className=" bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden mx-4 "
 			>
 				<div
 					className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-gray-700 px-8 lg:px-6"
@@ -370,16 +371,22 @@ const sectionOne = () => {
 				<div className="block flex items-center p-8  uppercase">
 					<button
 						className="mt-3 text-lg font-semibold 
-						bg-gray-700 w-full text-white rounded-lg 
-						px-6 py-3 block shadow-xl hover:bg-gray-600"
+						bg-blue-600 w-full text-white rounded-lg 
+						px-6 py-3 block  hover:bg-blue-500"
 					>
 					Elegir
 					</button>
 				</div>
 			</div>
-
+			
 		</div>
-
+		<svg
+              className="fill-current text-white hidden md:block"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1440 320"
+            >
+              <path fill-opacity="1" d="M0,224L1440,32L1440,320L0,320Z"></path>
+            </svg>
 	</div>
 	 
 	 );

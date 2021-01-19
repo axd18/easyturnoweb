@@ -9,6 +9,9 @@ const QueEs = () => {
 			>
 			¿Qué es?
 		    </h1>
+            <div
+                class="h-1 mx-auto bg-gradient-to-r from-purple-700 to-purple-500 w-24  mt-4 rounded"
+            ></div>
 		    {/* <p className="text-center text-lg text-gray-700 mt-2 px-6">
 			Elegí el plan que mejor se adapte a tu negocio.
 		    </p> */}
