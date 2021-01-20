@@ -1,5 +1,5 @@
 import './App.js';
-import Header from './components/Header';
+import Navbar from './components/Navbar';
 import Main from './components/Main';
 import Precios from './components/Precios';
 import QueEs from './components/QueEs';
@@ -13,13 +13,13 @@ function App() {
   
 return (
     <>
-      <Header />
-      <Main />
-      <QueEs />
-      <ComoFunciona />
-      <Precios />
-      <Faq />
-      <Form />
+      <Navbar />
+      <Main id="section0"/>
+      <QueEs id="section1"/>
+      <ComoFunciona id="section2"/>
+      <Precios id="section3"/>
+      <Faq id="section4"/>
+      <Form id="section5"/>
       <Footer />
     </>
   );

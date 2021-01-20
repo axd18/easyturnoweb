@@ -5,7 +5,7 @@ const QueEs = () => {
     return (
         <div className="container max-w-full mx-auto py-24 px-6">
             <h1
-			className="text-center text-4xl text-gray-700 font-bold leading-snug"
+			className="text-center text-4xl text-gray-700 font-bold leading-snug" id="section1"
 			>
 			¿Qué es?
 		    </h1>
@@ -24,7 +24,7 @@ const QueEs = () => {
                 </div>
                 
                 <div className=" object-contain w-72" >
-                    <img className=""src={calendar}/>
+                    <img className=""src={calendar} alt="calendar"/>
                 </div>
             </div>
         </div>

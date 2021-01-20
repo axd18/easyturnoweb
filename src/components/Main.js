@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import mobil from '../assets/img/mobil.png'
 
 const Main = () => {
@@ -17,11 +18,15 @@ const Main = () => {
                         Con tu calendario gestionás los turnos que llegan desde un formulario online personalizado para tu negocio.
                       </p>
 
-                      <p
-                        href="#"
-                        className="mt-6 mb-12 md:mb-0 md:mt-10 inline-block py-3 px-8 text-white hover:bg-blue-600 rounded-lg shadow bg-blue-500"
-                        >Contactanos</p
-                      >
+                      <Link
+                        activeClass="active"
+                        to="section5"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="mt-6 mb-12 md:mb-0 md:mt-10 inline-block py-3 px-8 text-white hover:bg-blue-600 rounded-lg shadow bg-blue-500 cursor-pointer"
+                        >Contáctanos</Link>
                     </div>
                       <div className=" md:w-1/2 absolute inset-y-0 right-0 mt-40">
                         <img src={mobil} alt="mobil"/>
