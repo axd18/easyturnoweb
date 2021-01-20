@@ -4,7 +4,7 @@ const Form = () => {
     return ( 
         <div className="bg-gray-200 pb-32">
             <h1
-                className="text-center text-4xl text-gray-700 font-bold leading-snug "
+                className="text-center text-4xl text-gray-700 font-bold leading-snug" id="section5"
                 >
                 Contacto
             </h1>

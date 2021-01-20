@@ -7,7 +7,7 @@ const Precios = () => {
 	<div className=" bg-purple-700">
 		
 		<h1
-			className="text-center text-4xl text-white font-bold leading-snug "
+			className="text-center text-4xl text-white font-bold leading-snug" id="section3"
 			>
 			Precio
 		</h1>
