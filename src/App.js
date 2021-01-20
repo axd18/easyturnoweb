@@ -8,6 +8,7 @@ import QueEs from './components/QueEs';
 import ComoFunciona from './components/ComoFunciona';
 import Form from './components/Form';
 import Faq from './components/Faq';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <SectionOne />
       <Faq />
       <Form />
+      <Footer />
     </>
   );
 }
