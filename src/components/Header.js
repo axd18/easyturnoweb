@@ -35,8 +35,12 @@ const Header = () => {
               >Precio</p>
               <p
               href="#"
-              className="inline-block py-1 md:py-4 hover:text-gray-100"
+              className="inline-block py-1 md:py-4 hover:text-gray-100 mr-6"
               >FAQ</p>
+              <p
+              href="#"
+              className="inline-block py-1 md:py-4 hover:text-gray-100"
+              >Contacto</p>
           </div>
         </div>
       </div>

@@ -34,7 +34,7 @@ const Faq = () => {
                 </span>
               </details>
               <details class="mb-4">
-                <summary class="font-semibold bg-gray-200 rounded-md py-2 px-4">
+                <summary class="font-semibold bg-purple-200 rounded-md py-2 px-4">
                   ¿Qué sucede si no hay turno ese día?
                 </summary>
 
@@ -43,7 +43,7 @@ const Faq = () => {
                 </span>
               </details>
               <details class="mb-4">
-                <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
+                <summary class="font-semibold bg-purple-200 rounded-md py-2 px-4">
                   ¿Dónde puedo ver los datos de mi reserva?
                 </summary>
 
@@ -52,7 +52,7 @@ const Faq = () => {
                 </span>
               </details>
               <details class="mb-4">
-                <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
+                <summary class="font-semibold bg-purple-200 rounded-md py-2 px-4">
                   ¿Qué sucede si no me llega ningún correo y ya me confirmo el turno?
                 </summary>
 
@@ -64,7 +64,7 @@ const Faq = () => {
             <div class="w-full lg:w-1/2 px-4 py-2">
             <h1 className=" text-2xl text-gray-700 font-bold text-gray-700 pb-4">Preguntas del administrador de turnos</h1>
               <details class="mb-4">
-                <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
+                <summary class="font-semibold bg-purple-200 rounded-md py-2 px-4">
                   ¿Dónde esta registrados mis turnos??
                 </summary>
 
@@ -73,7 +73,7 @@ const Faq = () => {
                 </span>
               </details>
               <details class="mb-4">
-                <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
+                <summary class="font-semibold bg-purple-200 rounded-md py-2 px-4">
                 ¿Cómo me puedo contactar con un usuario que haya registrado un turno?
                 </summary>
 
@@ -83,7 +83,7 @@ const Faq = () => {
                 </span>
               </details>
               <details class="mb-4">
-                <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
+                <summary class="font-semibold bg-purple-200 rounded-md py-2 px-4">
                 ¿Qué tareas puedo realizar con mi calendario de turnos?
                 </summary>
 

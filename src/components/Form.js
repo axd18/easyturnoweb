@@ -2,7 +2,7 @@ import React from 'react';
 
 const Form = () => {
     return ( 
-        <div className="bg-gray-200">
+        <div className="bg-gray-200 pb-32">
             <h1
                 className="text-center text-4xl text-gray-700 font-bold leading-snug "
                 >
