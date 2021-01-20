@@ -3,7 +3,7 @@
 import './App.js';
 import Header from './components/Header';
 import Main from './components/Main';
-import SectionOne from './components/SectionOne';
+import Precios from './components/Precios';
 import QueEs from './components/QueEs';
 import ComoFunciona from './components/ComoFunciona';
 import Form from './components/Form';
@@ -18,7 +18,7 @@ function App() {
       <Main />
       <QueEs />
       <ComoFunciona />
-      <SectionOne />
+      <Precios />
       <Faq />
       <Form />
       <Footer />

@@ -4,13 +4,16 @@ import React from 'react';
 const Faq = () => {
     return ( 
     
-<div>
-      <section class="text-gray-700 mb-20">
+<div className="bg-gray-200">
+      <section class="text-gray-700">
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">
             <h1 class="text-center text-4xl text-gray-700 font-bold leading-snug">
               Preguntas Frecuentes
             </h1>
+            <div
+                class="h-1 mx-auto bg-gradient-to-r from-purple-700 to-purple-500 w-24  mt-3 mb-6 rounded"
+            ></div>
             <p class="text-center text-lg text-gray-700 mt-2 px-6">
               Las preguntas que nos hacen con más frecuencia sobre como funciona Easy Turno y como podemos ayudarte.
             </p>
@@ -19,7 +22,7 @@ const Faq = () => {
             <div class="w-full lg:w-1/2 px-4 py-2">
               <h1 className=" text-2xl text-gray-700 font-bold text-gray-700 pb-4">Preguntas del que pide el turno</h1>
               <details class="mb-4">
-                <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
+                <summary class="font-semibold  bg-purple-200 rounded-md py-2 px-4">
                   ¿Cómo puedo reservar un turno?
                 </summary>
 
