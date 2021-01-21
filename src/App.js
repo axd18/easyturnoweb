@@ -7,7 +7,7 @@ import ComoFunciona from './components/ComoFunciona';
 import Form from './components/Form';
 import Faq from './components/Faq';
 import Footer from './components/Footer';
-
+import Arrow from './components/Arrow';
 
 function App() {
   
@@ -21,6 +21,7 @@ return (
       <Faq id="section4"/>
       <Form id="section5"/>
       <Footer />
+      <Arrow />
     </>
   );
 }
