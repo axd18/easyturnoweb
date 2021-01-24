@@ -7,22 +7,22 @@ const Precios = () => {
 	<div className=" bg-purple-700">
 		
 		<h1
-			className="text-center text-4xl text-white font-bold leading-snug" id="section3"
+			className="text-center text-4xl text-white font-bold leading-snug" id="section3" data-aos="fade-right"
 			>
 			Precio
 		</h1>
 		<div
-			class="h-1 mx-auto  w-24 mt-3 mb-6 rounded"
+			class="h-1 mx-auto bg-white w-24 mt-3 mb-6 rounded" data-aos="fade-left"
 		></div>
-		<p className="text-center text-lg text-white mt-2 px-6">
+		<p className="text-center text-lg text-white mt-2 px-6" data-aos="fade-right">
 			Elegí el plan que mejor se adapte a tu negocio.
 		</p>
 
 
-		<div class="container mx-auto flex justify-center mt-10 ">
+		<div class="container mx-auto flex justify-center mt-10 " >
 
 		<div
-				className=" bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden mx-4 "
+				className=" bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden mx-4 "data-aos="fade-left"
 			>
 				<div
 					className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-gray-700 px-8 lg:px-6"
@@ -178,7 +178,7 @@ const Precios = () => {
 			</div>
 
 			<div
-				className=" bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden mx-4"
+				className=" bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden mx-4" data-aos="fade-right"
 			>
 				<div
 					className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-gray-700 px-8 lg:px-6"

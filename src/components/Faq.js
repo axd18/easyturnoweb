@@ -8,18 +8,18 @@ const Faq = () => {
       <section class="text-gray-700">
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">
-            <h1 class="text-center text-4xl text-gray-700 font-bold leading-snug" id="section4">
+            <h1 class="text-center text-4xl text-gray-700 font-bold leading-snug" id="section4" data-aos="fade-left">
               Preguntas Frecuentes
             </h1>
             <div
-                class="h-1 mx-auto bg-gradient-to-r from-purple-700 to-purple-500 w-24  mt-3 mb-6 rounded"
+                class="h-1 mx-auto bg-gradient-to-r from-purple-700 to-purple-500 w-24  mt-3 mb-6 rounded" data-aos="fade-right"
             ></div>
-            <p class="text-center text-lg text-gray-700 mt-2 px-6">
+            <p class="text-center text-lg text-gray-700 mt-2 px-6" data-aos="fade-right">
               Las preguntas que nos hacen con más frecuencia sobre como funciona Easy Turno y como podemos ayudarte.
             </p>
           </div>
           <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-            <div class="w-full lg:w-1/2 px-4 py-2">
+            <div class="w-full lg:w-1/2 px-4 py-2" data-aos="fade-left">
               <h1 className=" text-2xl text-gray-700 font-bold text-gray-700 pb-4">Preguntas del que pide el turno</h1>
               <details class="mb-4">
                 <summary class="font-semibold  bg-purple-200 rounded-md py-2 px-4">
@@ -61,8 +61,8 @@ const Faq = () => {
                 </span>
               </details>
             </div>
-            <div class="w-full lg:w-1/2 px-4 py-2">
-            <h1 className=" text-2xl text-gray-700 font-bold text-gray-700 pb-4">Preguntas del administrador de turnos</h1>
+            <div class="w-full lg:w-1/2 px-4 py-2" data-aos="fade-right">
+            <h1 className=" text-2xl text-gray-700 font-bold text-gray-700 pb-4" >Preguntas del administrador de turnos</h1>
               <details class="mb-4">
                 <summary class="font-semibold bg-purple-200 rounded-md py-2 px-4">
                   ¿Dónde esta registrados mis turnos??
