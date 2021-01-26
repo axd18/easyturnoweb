@@ -28,7 +28,7 @@ const Main = () => {
                         className="mt-6 mb-12 md:mb-0 md:mt-10 inline-block py-3 px-8 text-white hover:bg-blue-600 rounded-lg shadow bg-blue-500 cursor-pointer"
                         >Contáctanos</Link>
                     </div>
-                      <div className=" md:w-1/2 absolute inset-y-0 right-0 mt-40">
+                      <div className=" md:w-1/2 absolute inset-y-0 right-0 mt-40 hidden md:block">
                         <img src={mobil} alt="mobil"/>
                       </div>
                   </div>
