@@ -4,7 +4,7 @@ import mobil from '../assets/img/mobil.png'
 
 const Main = () => {
     return ( 
-        <div className="bg-gradient-to-r from-purple-900 via-purple-700 to-purple-500 ">
+        <div className="bg-gradient-to-r from-purple-900 via-purple-700 to-purple-500">
               <div className="px-4 py-20 md:py-4 ">
                 <div className="md:max-w-6xl md:mx-auto ">
                   <div className="md:flex md:flex-wrap">
