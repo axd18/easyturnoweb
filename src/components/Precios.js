@@ -4,7 +4,7 @@ const Precios = () => {
     return ( 
         
 
-	<div className=" bg-purple-700">
+	<div className="bg-purple-700 pb-20">
 		
 		<h1
 			className="text-center text-4xl text-white font-bold leading-snug" id="section3" data-aos="fade-right"
@@ -19,10 +19,10 @@ const Precios = () => {
 		</p>
 
 
-		<div class="container mx-auto flex justify-center mt-10 " >
+		<div class="container max-w-full max-w-6xl mx-auto my-3  md:mx-auto md:flex justify-center mt-10 " >
 
 		<div
-				className=" bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden mx-4 "data-aos="fade-left"
+				className=" bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden mx-4 mb-4" data-aos="fade-left"
 			>
 				<div
 					className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-gray-700 px-8 lg:px-6"
@@ -170,7 +170,7 @@ const Precios = () => {
 					<button
 						className="mt-3 text-lg font-semibold 
 						bg-blue-600 w-full text-white rounded-lg 
-						px-6 py-3 block shadow-xl hover:bg-blue-500"
+						px-6 py-3 block hover:bg-blue-500"
 					>
 					Elegir
 					</button>
