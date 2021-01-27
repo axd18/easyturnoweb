@@ -1,9 +1,9 @@
 import React from 'react';
 import como from '../assets/img/como.svg';
 
-const QueEs = () => {
+const ComoFunciona = () => {
     return (
-        <div className="mt-20 container max-w-full mx-auto py-24 px-6">
+        <div className="mt-20 container max-w-full mx-auto">
             
             <h1
 			className="text-center text-4xl text-gray-700 font-bold leading-snug" id="section2" data-aos="fade-left"
@@ -35,4 +35,4 @@ const QueEs = () => {
     );
 }
  
-export default QueEs;
+export default ComoFunciona;
