@@ -4,7 +4,7 @@ const Precios = () => {
     return ( 
         
 
-	<div className="bg-purple-700 pb-20">
+	<div className="bg-purple-700 pt-10">
 		
 		<h1
 			className="text-center text-4xl text-white font-bold leading-snug" id="section3" data-aos="fade-right"
@@ -12,7 +12,7 @@ const Precios = () => {
 			Precio
 		</h1>
 		<div
-			class="h-1 mx-auto bg-white w-24 mt-3 mb-6 rounded" data-aos="fade-left"
+			class="h-1 mx-auto bg-white w-24 mt-3 mb-6 rounded" data-aos="fade-right"
 		></div>
 		<p className="text-center text-lg text-white mt-2 px-6" data-aos="fade-right">
 			Elegí el plan que mejor se adapte a tu negocio.
@@ -22,7 +22,7 @@ const Precios = () => {
 		<div class="container max-w-full max-w-6xl mx-auto my-3  md:mx-auto md:flex justify-center mt-10 " >
 
 		<div
-				className=" bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden mx-4 mb-4" data-aos="fade-left"
+				className=" bg-white text-black rounded-lg shadow-inner shadow-lg mx-4 mb-4" data-aos="fade-right"
 			>
 				<div
 					className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-gray-700 px-8 lg:px-6"

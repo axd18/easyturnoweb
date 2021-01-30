@@ -3,24 +3,24 @@ import como from '../assets/img/como.svg';
 
 const ComoFunciona = () => {
     return (
-        <div className="mt-20 container max-w-full mx-auto">
+        <div className="container md:pt-10 max-w-full mx-auto ">
             
             <h1
-			className="text-center text-4xl text-gray-700 font-bold leading-snug" id="section2" data-aos="fade-left"
+			className="text-center text-4xl text-gray-700 font-bold leading-snug" data-aos="fade-right" id="section2"
 			>
 			¿Cómo funciona?
 		    </h1>
             <div
-                class="h-1 mx-auto bg-gradient-to-r from-purple-700 to-purple-500 w-24  mt-3 rounded" data-aos="fade-right"
+                class="h-1 mx-auto bg-gradient-to-r from-purple-700 to-purple-500 w-24 mb-8 mt-3 rounded" data-aos="fade-right"
             ></div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3  max-w-6xl mx-auto">
-                <div className=" object-contain w-72" data-aos="fade-left">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 max-w-6xl mx-auto" data-aos="fade-right">
+                <div className=" object-contain w-72">
                     <img src={como} alt="man mobile"/>
                 </div>
                 <div className=" text-left font-medium text-3xl text-gray-700 mt-2 px-6 leading-10 self-center" data-aos="fade-right">
                     <p>Mediante una url que contiene el formulario del turno y éste llega a tu calendario en el celular, tablet o computadora. Así de simple.</p>
                 <div
-                    class="h-1 mx-auto bg-gradient-to-r from-purple-700 to-purple-500 w-60  mt-3 rounded" data-aos="fade-right"
+                    class="h-1 mx-left bg-gradient-to-r from-purple-700 to-purple-500 w-20 mt-3 rounded" data-aos="fade-right"
                 ></div>
                 </div>
             </div>

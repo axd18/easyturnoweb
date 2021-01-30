@@ -1,34 +1,24 @@
 import React from 'react';
-import emailjs from 'emailjs-com';
+
 
 const Form = () => {
     
-    function sendEmail(e) {
-        e.preventDefault();
-    
-        emailjs.sendForm('gmail', 'template_test', e.target, 'user_DjxbpiGhrI5bsn5NN7Lm7')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-          e.target.reset()
-      }
+
     
     return ( 
-        <div className="bg-gray-200 pb-32 px-5">
+        <div className="bg-gray-200 py-20 px-5 pt-8">
             <h1
-                className="text-center text-4xl text-gray-700 font-bold leading-snug" id="section5" data-aos="fade-left"
+                className="text-center text-4xl text-gray-700 font-bold leading-snug" id="section5"
                 >
                 Contacto
             </h1>
             <div
-                className="h-1 mx-auto bg-gradient-to-r from-purple-700 to-purple-500 w-24  mt-3 rounded" data-aos="fade-right"
+                className="h-1 mx-auto bg-gradient-to-r from-purple-700 to-purple-500 w-24  mt-3 rounded"
             ></div>
-            <div className="max-w-2xl bg-white py-10 px-5 m-auto w-full mt-10 rounded-lg" data-aos="fade-left">
+            <div className="max-w-2xl bg-white py-10 px-5 m-auto w-full mt-10 rounded-lg">
 
                 <form
-                    onSubmit={ sendEmail }
+                    
                     className="grid grid-cols-2 gap-4 max-w-xl m-auto">
 
                     <div className="col-span-2 lg:col-span-1">
