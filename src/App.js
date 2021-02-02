@@ -8,6 +8,7 @@ import Form from './components/Form';
 import Faq from './components/Faq';
 import Footer from './components/Footer';
 import Arrow from './components/Arrow';
+import Suscrip from './components/Suscrip';
 
 function App() {
   
@@ -20,6 +21,7 @@ return (
       <Precios id="section3"/>
       <Faq id="section4"/>
       <Form id="section5"/>
+      <Suscrip />
       <Footer />
       <Arrow />
     </>
