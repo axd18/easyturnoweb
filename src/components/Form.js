@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 
 const Form = () => {
@@ -11,7 +12,7 @@ const Form = () => {
 
     const {nombre, email, message} = datos
     
-    const [error, guardarError] = useState(false);
+    const [error, ] = useState(false);
 
     // función que coloca los elementos en el state
     const handleChange = e => {
@@ -27,12 +28,18 @@ const Form = () => {
         e.preventDefault();
 
         // Validar
-        if(nombre.trim() === '' || email.trim() === '' || message.trim() === '') {
-            guardarError(true);
-            return;
-        }
-        guardarError(false);
+        // if(nombre.trim() === '' || email.trim() === '' || message.trim() === '') {
+        //     guardarError(true);
+        //     return;
+        // }
+        // guardarError(false);
         // Pasarlo al componente principal
+        emailjs.sendForm('gmail', 'template_test', e.target, 'user_DjxbpiGhrI5bsn5NN7Lm7')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
     }
     
     return ( 
