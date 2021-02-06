@@ -1,3 +1,5 @@
+
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.js';
 import Navbar from './components/Navbar';
 import Main from './components/Main';
@@ -13,18 +15,20 @@ import Suscrip from './components/Suscrip';
 function App() {
   
 return (
-    <>
+    <Router>
       <Navbar />
-      <Main id="section0"/>
-      <QueEs id="section1"/>
-      <ComoFunciona id="section2"/>
-      <Precios id="section3"/>
-      <Faq id="section4"/>
-      <Form id="section5"/>
-      <Suscrip />
+        <Route exact path="/"component={Main} id="section0"/>
+        <Route exact path="/que-es"component={QueEs} id="section1"/>
+        <ComoFunciona id="section2"/>
+        <Precios id="section3"/>
+        <Faq id="section4"/>
+        <Form id="section5"/>
+      <Switch>
+        <Suscrip />
+      </Switch>
+        <Arrow />
       <Footer />
-      <Arrow />
-    </>
+    </Router>
   );
 }
 
