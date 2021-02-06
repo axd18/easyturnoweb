@@ -1,5 +1,3 @@
-
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.js';
 import Navbar from './components/Navbar';
 import Main from './components/Main';
@@ -17,22 +15,6 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 function App() {
   
 return (
-<<<<<<< HEAD
-    <Router>
-      <Navbar />
-        <Route exact path="/"component={Main} id="section0"/>
-        <Route exact path="/que-es"component={QueEs} id="section1"/>
-        <ComoFunciona id="section2"/>
-        <Precios id="section3"/>
-        <Faq id="section4"/>
-        <Form id="section5"/>
-      <Switch>
-        <Suscrip />
-      </Switch>
-        <Arrow />
-      <Footer />
-    </Router>
-=======
     <>
       <Router>
           <Route exact strict path="/" component={Navbar}/>
@@ -47,7 +29,6 @@ return (
           <Route exact strict path="/suscripcion" component={Suscrip}/>
       </Router>
     </>
->>>>>>> responsive
   );
 }
 
