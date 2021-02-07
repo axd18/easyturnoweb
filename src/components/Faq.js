@@ -91,6 +91,16 @@ const Faq = () => {
                 Usted puede reasignar , borrar, cambiar, observar todos los datos de quién hace su reserva,  colorear, reenviarse recordatorios y mas funcionalidades que le son asignadas a su calendario.
                 </span>
               </details>
+              <details class="mb-4">
+                <summary class="font-semibold bg-purple-200 rounded-md py-2 px-4">
+                ¿Si tengo varios Especialidades para reservar turno como puedo organizar los calendarios?
+                </summary>
+
+                <span class="px-4 py-2">
+                Con EasyTurno podra, tener en el plan basico hasta dos especialidades, ejemplo: Dos Cajas, Dos Box, o peluqueria, y manicura, 
+                con el Plan Premium podra acceder hasta 6 calendarios, o especialidades, diferentes. 
+                </span>
+              </details>
             </div>
           </div>
         </div>
