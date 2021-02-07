@@ -128,7 +128,7 @@ class Form extends React.PureComponent {
                     <div class="col-span-2 lg:col-span-1 rounded-lg">
                     <label htmlFor="email"></label>
                         <input
-                        className="border-solid border-gray-400 border-2 p-3 md:text-xl w-full rounded-lg"
+                        className="border-solid border-gray-400 border-2 p-3 md:text-xl w-full rounded-lg "
                         placeholder="Email"
                         type="email"
                         name="email"
