@@ -1,5 +1,5 @@
 import React from 'react';
-import como from '../assets/img/como.svg';
+import como from '../assets/img/video.png';
 
 const ComoFunciona = () => {
     return (
