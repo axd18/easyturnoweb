@@ -3,7 +3,7 @@ import como from '../assets/img/video.png';
 
 const ComoFunciona = () => {
     return (
-        <div className="container md:pt-10 max-w-full mx-auto ">
+        <div className="container pb-20 md:pb-0 md:pt-10 max-w-full mx-auto ">
             
             <h1
 			className="text-center text-4xl text-gray-700 font-bold leading-snug" data-aos="fade-right" id="section2"

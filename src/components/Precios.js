@@ -4,7 +4,7 @@ const Precios = () => {
     return ( 
         
 
-	<div className="bg-purple-700 pt-10">
+	<div className="bg-purple-700 pb-20 md:pb-0 pt-10">
 		
 		<h1
 			className="text-center text-4xl text-white font-bold leading-snug" id="section3" data-aos="fade-right"
