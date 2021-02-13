@@ -9,6 +9,7 @@ import Faq from './components/Faq';
 import Footer from './components/Footer';
 import Arrow from './components/Arrow';
 import Suscrip from './components/Suscrip';
+import Clientes from './components/Clientes';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -19,6 +20,7 @@ return (
       <Router>
           <Route exact strict path="/" component={Navbar}/>
           <Route exact strict path="/" component={Main} id="section0"/>
+          <Route exact strict path="/" component={Clientes}/>
           <Route exact strict path="/" component={QueEs} id="section1"/>
           <Route exact strict path="/" component={ComoFunciona} id="section2"/>
           <Route exact strict path="/" component={Precios} id="section3"/>

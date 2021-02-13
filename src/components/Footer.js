@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 const Footer = () => {
     return ( 
@@ -26,70 +27,81 @@ const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap">
             <div className="w-full lg:w-6/12 px-4">
-              <h4 className="text-3xl font-semibold">
-                Let's keep in touch!
+              <h4 className="text-3xl text-gray-700 font-semibold">
+                Dejanos tu email
               </h4>
               <h5 className="text-lg mt-0 mb-2 text-gray-700">
-                Find us on any of these platforms, we respond 1-2 business days.
+                y te contactaremos dentro de las 24 hs.
               </h5>
               <div className="mt-6">
-                <button
-                  className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                >
-                  <i className="flex fab fa-twitter"></i>
-                </button>
-                <button
-                  className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                >
-                  <i className="flex fab fa-facebook-square"></i>
-                </button>
-                <button
-                  className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                >
-                  <i className="flex fab fa-dribbble"></i>
-                </button>
-                <button
-                  className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                >
-                  <i className="flex fab fa-github"></i>
-                </button>
+                
+              <div>
+                  <form class="m-4 flex mx-auto">
+                    <input class="rounded-l-lg p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white " placeholder="tuemail@mail.com"/>
+                  <button class="px-8 rounded-r-lg bg-blue-500  text-white font-bold p-4 border-blue-600 border-t border-b border-r">Enviar</button>
+                </form>
+              </div>
               </div>
             </div>
             <div className="w-full lg:w-6/12 px-4">
               <div className="flex flex-wrap items-top mb-6">
                 <div className="w-full lg:w-4/12 px-4 ml-auto">
                   <span className="block uppercase text-gray-600 text-sm font-semibold mb-2">
-                    Useful Links
+                    Secciones
                   </span>
                   <ul className="list-unstyled">
                     <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                         href="https://www.creative-tim.com/presentation">About Us
-                      </a>
+                      <Link className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm cursor-pointer"
+                        to="section1"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}>
+                          ¿Qué Es?
+                      </Link>
                     </li>
                     <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                         href="https://blog.creative-tim.com">Blog
-                      </a>
+                      <Link className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm cursor-pointer"
+                         to="section2"
+                         spy={true}
+                         smooth={true}
+                         offset={-70}
+                         duration={500}>
+                           ¿Cómo funciona?
+                      </Link>
                     </li>
                     <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                         href="https://www.github.com/creativetimofficial">Github
-                      </a>
+                      <Link className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm cursor-pointer"
+                         to="section3"
+                         spy={true}
+                         smooth={true}
+                         offset={-70}
+                         duration={500}>
+                           Precio
+                      </Link>
                     </li>
                     <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                         href="https://www.creative-tim.com/bootstrap-themes/free">Free Products
-                      </a>
+                      <Link className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm cursor-pointer"
+                         to="section4"
+                         spy={true}
+                         smooth={true}
+                         offset={-70}
+                         duration={500}>Preguntas frecuentes
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm cursor-pointer"
+                         to="section5"
+                         spy={true}
+                         smooth={true}
+                         offset={-70}
+                         duration={500}>Contacto
+                      </Link>
                     </li>
 
                   </ul>
                 </div>
-                <div className="w-full lg:w-4/12 px-4">
+                {/* <div className="w-full lg:w-4/12 px-4">
                   <span className="block uppercase text-gray-600 text-sm font-semibold mb-2">
                     Other Resources
                   </span>
@@ -116,7 +128,7 @@ const Footer = () => {
                     </li>
                   </ul>
 
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -124,12 +136,12 @@ const Footer = () => {
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">
               <div className="text-sm text-gray-600 font-semibold py-1">
-                Copyright © {new Date().getFullYear()}{" "}Tailwind Starter Kit by{" "}
+                Copyright © {new Date().getFullYear()}{" "}
                 <a
-                  href="https://www.creative-tim.com"
+                  href="https://www.lamdev.com.ar"
                   className="text-gray-600 hover:text-gray-900"
                 >
-                  Creative Tim
+                  LAM/DEV
                 </a>.
               </div>
             </div>
