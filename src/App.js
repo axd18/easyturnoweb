@@ -1,5 +1,5 @@
 import './App.js';
-import Navbar from './components/nav/Navbar';
+import Navbar from './components/Navbar';
 import Main from './components/Main';
 import Precios from './components/Precios';
 import QueEs from './components/QueEs';
