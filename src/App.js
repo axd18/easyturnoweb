@@ -30,7 +30,7 @@ return (
           <Route exact strict path="/" component={Footer}/>
           <Route exact strict path="/" component={Arrow}/>
           <Route exact strict path="/suscripcion" component={Suscrip}/>
-          <Route exact strict path="/error" component={Error}/>
+          <Route component={Error}/>
       </Router>
     </>
   );
