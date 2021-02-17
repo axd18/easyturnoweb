@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Arrow from './components/Arrow';
 import Suscrip from './components/Suscrip';
 import Clientes from './components/Clientes';
+import Error from './components/Error';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -29,6 +30,7 @@ return (
           <Route exact strict path="/" component={Footer}/>
           <Route exact strict path="/" component={Arrow}/>
           <Route exact strict path="/suscripcion" component={Suscrip}/>
+          <Route exact strict path="/error" component={Error}/>
       </Router>
     </>
   );
