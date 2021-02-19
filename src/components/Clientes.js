@@ -1,5 +1,6 @@
 import React from 'react';
 import peludos from '../assets/img/logo.svg';
+import bm from '../assets/img/logo-lubricentro.svg';
 
 const Clientes = () => {
     return (
@@ -16,11 +17,11 @@ const Clientes = () => {
 			Elegí el plan que mejor se adapte a tu negocio.
 		    </p> */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 max-w-sm mx-auto" data-aos="fade-right">
-                <div className=" object-contain w-40 md:w-auto">
+                <div className=" object-contain mx-auto w-40 md:w-auto">
                     <img className=""src={peludos} alt="peludos"/>
                 </div>
-                <div className=" object-contain w-72 md:w-auto">
-                    {/* <img className=""src={peludos} alt="peludos"/> */}
+                <div className=" object-contain w-20 md:w-auto">
+                    <img className=""src={bm} alt="peludos"/>
                 </div>
                 
             </div>
