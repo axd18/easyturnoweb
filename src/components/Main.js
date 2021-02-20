@@ -1,47 +1,24 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+// import { Link } from 'react-scroll';
 import mobil from '../assets/img/mobil-X.svg';
 
 const Main = () => {
     return ( 
-      <div className="bg-gradient-to-r from-purple-900 via-purple-700 to-purple-500">
-      <div className="px-4  md:py-4 ">
-        <div className="md:max-w-6xl md:mx-auto ">
-          <div className="md:flex md:flex-wrap">
-            <div className=" md:w-1/2 text-center md:text-left md:pt-16">
-              <h1
-                className="font-bold text-white text-4xl md:text-5xl leading-tight mb-4">
-                La manera más fácil de gestionar tus turnos.
-              </h1>
-
-              <p className="text-white text-xl md:pr-48">
-                Con tu calendario gestionás los turnos que llegan desde un formulario online personalizado para tu negocio.
-              </p>
-
-              <Link
-                activeClass="active"
-                to="section5"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                className="mt-6 mb-12 md:mb-0 md:mt-10 inline-block py-3 px-8 text-white hover:bg-blue-600 rounded-lg shadow bg-blue-500 cursor-pointer"
-                >Contáctanos</Link>
-            </div>
-              <div className="  md:w-1/2 absolute inset-y-0 right-0 mt-40 hidden md:block">
-                <img src={mobil} alt="mobil" className="w-1/2"/>
-              </div>
-          </div>
-        </div>
+      <section class="text-gray-600 body-font bg-hero-main bg-no-repeat">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center text-white">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 class="title-font sm:text-5xl text-5xl mb-4 font-bold text-white leading-tight">La manera más fácil de gestionar tus turnos.
+      </h1>
+      <p class="sm:text-2xl text-2xl mb-8 leading-thight">Con tu calendario gestionás los turnos que llegan desde un formulario online personalizado para tu negocio.</p>
+      <div class="flex justify-center">
+        <button class="inline-flex  bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Button</button>
       </div>
-    <svg
-      className="fill-current text-white hidden md:block"
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 1440 320"
-    >
-      <path fill-opacity="1" d="M0,224L1440,32L1440,320L0,320Z"></path>
-    </svg>
-</div>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img class="object-cover object-center rounded" alt="hero" src={mobil}/>
+    </div>
+  </div>
+</section>
      );
 }
  
