@@ -4,7 +4,7 @@ import mobil from '../assets/img/mobil-X.svg';
 
 const Main = () => {
     return ( 
-      <section class="text-gray-600 body-font bg-hero-main bg-no-repeat">
+      <section class="text-gray-600 body-font bg-hero-respon md:bg-hero-main bg-no-repeat">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center text-white">
     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 class="title-font sm:text-5xl text-5xl mb-4 font-bold text-white leading-tight">La manera más fácil de gestionar tus turnos.

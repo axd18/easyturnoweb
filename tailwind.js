@@ -167,6 +167,7 @@ module.exports = {
       'gradient-to-l': 'linear-gradient(to left, var(--gradient-color-stops))',
       'gradient-to-tl': 'linear-gradient(to top left, var(--gradient-color-stops))',
       'hero-main': "url('/src/assets/img/background.svg')",
+      'hero-respon': "url('/src/assets/img/test-background-respon.svg')"
     },
     gradientColorStops: theme => theme('colors'),
     backgroundOpacity: theme => theme('opacity'),

@@ -19,7 +19,7 @@ function App() {
 return (
     <>
       <Router>
-            {/* <Route exact strict path="/" component={Navbar}/> */}
+            <Route exact strict path="/" component={Navbar}/>
             <Route exact strict path="/" component={Main} id="section0"/>
             {/* <Route exact strict path="/" component={Clientes}/>
             <Route exact strict path="/" component={QueEs} id="section1"/>

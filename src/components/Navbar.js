@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return ( 
       
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-gradient-to-r from-purple-900 via-purple-700 to-purple-500">
+      <nav className="bg-gray-900 bg-opacity-75 absolute w-full items-center justify-center px-2 md:bg-opacity-0">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <div
