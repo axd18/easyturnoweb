@@ -1,6 +1,6 @@
 import React from 'react';
 import peludos from '../assets/img/logo.svg';
-import bm from '../assets/img/logo-lubricentro.svg'
+import bm from '../assets/img/logo-lubricentro.svg';
 
 const Clientes = () => {
     return (

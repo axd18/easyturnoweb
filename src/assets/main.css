@@ -3521,6 +3521,14 @@ video {
   background-image: linear-gradient(to top left, var(--gradient-color-stops));
 }
 
+.bg-hero-main {
+  background-image: url('/src/assets/img/background.svg');
+}
+
+.bg-hero-respon {
+  background-image: url('/src/assets/img/test-background-respon.svg');
+}
+
 .from-transparent {
   --gradient-from-color: transparent;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -22145,6 +22153,14 @@ video {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
+  .sm\:bg-hero-main {
+    background-image: url('/src/assets/img/background.svg');
+  }
+
+  .sm\:bg-hero-respon {
+    background-image: url('/src/assets/img/test-background-respon.svg');
+  }
+
   .sm\:from-transparent {
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -40737,6 +40753,14 @@ video {
 
   .md\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
+  }
+
+  .md\:bg-hero-main {
+    background-image: url('/src/assets/img/background.svg');
+  }
+
+  .md\:bg-hero-respon {
+    background-image: url('/src/assets/img/test-background-respon.svg');
   }
 
   .md\:from-transparent {
@@ -59333,6 +59357,14 @@ video {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
+  .lg\:bg-hero-main {
+    background-image: url('/src/assets/img/background.svg');
+  }
+
+  .lg\:bg-hero-respon {
+    background-image: url('/src/assets/img/test-background-respon.svg');
+  }
+
   .lg\:from-transparent {
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -77925,6 +77957,14 @@ video {
 
   .xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
+  }
+
+  .xl\:bg-hero-main {
+    background-image: url('/src/assets/img/background.svg');
+  }
+
+  .xl\:bg-hero-respon {
+    background-image: url('/src/assets/img/test-background-respon.svg');
   }
 
   .xl\:from-transparent {
