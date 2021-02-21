@@ -2,395 +2,91 @@ import React from 'react';
 
 const Precios = () => {
     return ( 
-        
 
-	<div className="bg-purple-700 pb-20 md:pb-0 pt-10">
-		
-		<h1
-			className="text-center text-4xl text-white font-bold leading-snug" id="section3" data-aos="fade-right"
-			>
-			Precio
-		</h1>
-		<div
-			class="h-1 mx-auto bg-white w-24 mt-3 mb-6 rounded" data-aos="fade-right"
-		></div>
-		<p className="text-center text-lg text-white mt-2 px-6" data-aos="fade-right">
-			Elegí el plan que mejor se adapte a tu negocio.
-		</p>
-
-
-		<div class="container max-w-full max-w-6xl mx-auto my-3  md:mx-auto md:flex justify-center mt-10 " >
-
-		<div
-				className=" bg-white text-black rounded-lg shadow-inner shadow-lg mx-4 mb-4" data-aos="fade-right"
-			>
-				<div
-					className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-gray-700 px-8 lg:px-6"
-				>
-					<h1
-					className="text-lg font-medium uppercase p-3 pb-0 text-center tracking-wide"
-					>
-					Plan Básico
-					</h1>
-					<h2 className="text-3xl text-purple-700 text-center font-bold pb-6">USD 17/mes</h2>
-					Máxima funcionalidad en administración y gestión de Turnos.
-				</div>
-
-				<div className="flex flex-wrap mt-3 px-6">
-					<ul>
-						<li className="flex items-center">
-							<div
-								className=" rounded-full p-2 fill-current text-green-500"
-							>
-								<svg
-										className="w-6 h-6 align-middle"
-										width="24"
-										height="24"
-										viewBox="0 0 24 24"
-										fill="none"
-										stroke="currentColor"
-										stroke-width="2"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-									>
-									<path
-										d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
-									></path>
-									<polyline
-										points="22 4 12 14.01 9 11.01"
-									></polyline>
-								</svg>
-							</div>
-							<span className="text-gray-700 text-lg ml-3">Servicio Tecnico 24/7</span>
-						</li>
-						<li className="flex items-center">
-							<div
-								className=" rounded-full p-2 fill-current text-green-500"
-								>
-								<svg
-									className="w-6 h-6 align-middle"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									>
-									<path
-										d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
-									></path>
-									<polyline
-									points="22 4 12 14.01 9 11.01"
-									></polyline>
-								</svg>
-							</div>
-							<span className="text-gray-700 text-lg ml-3">Botón de Whatsapp</span>
-						</li>
-						<li className="flex items-center">
-							<div
-								className=" rounded-full p-2 fill-current text-green-500"
-							>
-								<svg
-									className="w-6 h-6 align-middle"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								>
-									<path
-									d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
-									></path>
-									<polyline
-									points="22 4 12 14.01 9 11.01"
-									></polyline>
-								</svg>
-							</div>
-							<span className="text-gray-700 text-lg ml-3">Plantilla</span>
-						</li>
-						<li className="flex items-center">
-							<div
-								className=" rounded-full p-2 fill-current text-green-500"
-							>
-								<svg
-									className="w-6 h-6 align-middle"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								>
-									<path
-									d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
-									></path>
-									<polyline
-									points="22 4 12 14.01 9 11.01"
-									></polyline>
-								</svg>
-							</div>
-							<span className="text-gray-700 text-lg ml-3">Logo</span>
-						</li>
-						
-						<li className="flex items-center">
-							<div
-								className=" rounded-full p-2 fill-current text-green-500"
-							>
-								<svg
-									className="w-6 h-6 align-middle"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								>
-									<path
-									d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
-									></path>
-									<polyline
-									points="22 4 12 14.01 9 11.01"
-									></polyline>
-								</svg>
-							</div>
-							<span className="text-gray-700 text-lg ml-3">Dirección Web en Easy Turno</span>
-						</li>
-					</ul> 
-				</div>  
-				<div className="block flex items-center p-8  uppercase">
-					<button
-						className="mt-3 text-lg font-semibold 
-						bg-blue-600 w-full text-white rounded-lg 
-						px-6 py-3 block hover:bg-blue-500"
-					>
-					Elegir
-					</button>
-				</div>
+		<section class="text-gray-600 body-font overflow-hidden">
+		  <div class="container px-5 py-24 mx-auto">
+			<div class="flex flex-col text-center w-full mb-20">
+			  <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Planes</h1>
+			  <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Elegí el plan que mejor se adapte a tu negocio.</p>
 			</div>
-
-			<div
-				className=" bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden mx-4" data-aos="fade-right"
-			>
-				<div
-					className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-gray-700 px-8 lg:px-6"
-				>
-					<h1
-					className="text-lg font-medium uppercase p-3 pb-0 text-center tracking-wide"
-					>
-					Plan Premium
-					</h1>
-					<h2 className="text-3xl text-purple-700 text-center font-bold pb-6">USD 24/mes</h2>
-					Máxima funcionalidad en administración y gestión de Turnos.
+			<div class="flex flex-wrap -m-4 justify-center">
+			  <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+				<div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+				  <h2 class="text-sm tracking-widest  mb-1 font-medium text-center">Plan</h2>
+				  <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none text-center font-medium">Básico</h1>
+				  <p class="flex items-center text-gray-600 mb-2">
+					<span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
+					  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+						<path d="M20 6L9 17l-5-5"></path>
+					  </svg>
+					</span>Servicio Tecnico 24/7
+				  </p>
+				  <p class="flex items-center text-gray-600 mb-2">
+					<span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
+					  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+						<path d="M20 6L9 17l-5-5"></path>
+					  </svg>
+					</span>Botón de Whatsapp
+				  </p>
+				  <p class="flex items-center text-gray-600 mb-6">
+					<span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
+					  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+						<path d="M20 6L9 17l-5-5"></path>
+					  </svg>
+					</span>Mixtape chillwave tumeric
+				  </p>
+				  <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
+					<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+					  <path d="M5 12h14M12 5l7 7-7 7"></path>
+					</svg>
+				  </button>
+				  <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p>
 				</div>
-
-				<div className="flex flex-wrap mt-3 px-6">
-					<ul>
-						<li className="flex items-center">
-							<div
-								className=" rounded-full p-2 fill-current text-green-500"
-							>
-								<svg
-										className="w-6 h-6 align-middle"
-										width="24"
-										height="24"
-										viewBox="0 0 24 24"
-										fill="none"
-										stroke="currentColor"
-										stroke-width="2"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-									>
-									<path
-										d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
-									></path>
-									<polyline
-										points="22 4 12 14.01 9 11.01"
-									></polyline>
-								</svg>
-							</div>
-							<span className="text-gray-700 text-lg ml-3">Servicio Tecnico 24/7</span>
-						</li>
-						<li className="flex items-center">
-							<div
-								className=" rounded-full p-2 fill-current text-green-500"
-								>
-								<svg
-									className="w-6 h-6 align-middle"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									>
-									<path
-										d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
-									></path>
-									<polyline
-									points="22 4 12 14.01 9 11.01"
-									></polyline>
-								</svg>
-							</div>
-							<span className="text-gray-700 text-lg ml-3">Botón de Whatsapp</span>
-						</li>
-						<li className="flex items-center">
-							<div
-								className=" rounded-full p-2 fill-current text-green-500"
-							>
-								<svg
-									className="w-6 h-6 align-middle"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								>
-									<path
-									d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
-									></path>
-									<polyline
-									points="22 4 12 14.01 9 11.01"
-									></polyline>
-								</svg>
-							</div>
-							<span className="text-gray-700 text-lg ml-3">Plantilla</span>
-						</li>
-						<li className="flex items-center">
-							<div
-								className=" rounded-full p-2 fill-current text-green-500"
-							>
-								<svg
-									className="w-6 h-6 align-middle"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								>
-									<path
-									d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
-									></path>
-									<polyline
-									points="22 4 12 14.01 9 11.01"
-									></polyline>
-								</svg>
-							</div>
-							<span className="text-gray-700 text-lg ml-3">Logo</span>
-						</li>
-						<li className="flex items-center">
-							<div
-								className=" rounded-full p-2 fill-current text-green-500"
-							>
-								<svg
-									className="w-6 h-6 align-middle"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								>
-									<path
-									d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
-									></path>
-									<polyline
-									points="22 4 12 14.01 9 11.01"
-									></polyline>
-								</svg>
-							</div>
-							<span className="text-gray-700 text-lg ml-3">Integración a la web de tu negocio</span>
-						</li>
-						<li className="flex items-center">
-							<div
-								className=" rounded-full p-2 fill-current text-green-500"
-							>
-								<svg
-									className="w-6 h-6 align-middle"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								>
-									<path
-									d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
-									></path>
-									<polyline
-									points="22 4 12 14.01 9 11.01"
-									></polyline>
-								</svg>
-							</div>
-							<span className="text-gray-700 text-lg ml-3">QR con acceso a tu Easy Turno</span>
-						</li>
-						<li className="flex items-center">
-							<div
-								className=" rounded-full p-2 fill-current text-green-500"
-							>
-								<svg
-									className="w-6 h-6 align-middle"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								>
-									<path
-									d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
-									></path>
-									<polyline
-									points="22 4 12 14.01 9 11.01"
-									></polyline>
-								</svg>
-							</div>
-							<span className="text-gray-700 text-lg ml-3">Dirección Web en Easy Turno</span>
-						</li>
-					</ul> 
-				</div>  
-				<div className="block flex items-center p-8  uppercase">
-					<button
-						className="mt-3 text-lg font-semibold 
-						bg-blue-600 w-full text-white rounded-lg 
-						px-6 py-3 block  hover:bg-blue-500"
-					>
-					Elegir
-					</button>
+			  </div>
+			  <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+				<div class="h-full p-6 rounded-lg border-2 border-blue-500 flex flex-col relative overflow-hidden">
+				  <span class="bg-blue-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">RECOMENDADO</span>
+				  <h2 class="text-sm tracking-widest title-font mb-1 font-medium text-center">Plan</h2>
+				  <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200 text-center font-medium">Premium</h1>
+				  <p class="flex items-center text-gray-600 mb-2">
+					<span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+					  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+						<path d="M20 6L9 17l-5-5"></path>
+					  </svg>
+					</span>Vexillologist pitchfork
+				  </p>
+				  <p class="flex items-center text-gray-600 mb-2">
+					<span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+					  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+						<path d="M20 6L9 17l-5-5"></path>
+					  </svg>
+					</span>Tumeric plaid portland
+				  </p>
+				  <p class="flex items-center text-gray-600 mb-2">
+					<span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+					  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+						<path d="M20 6L9 17l-5-5"></path>
+					  </svg>
+					</span>Hexagon neutra unicorn
+				  </p>
+				  <p class="flex items-center text-gray-600 mb-6">
+					<span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+					  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+						<path d="M20 6L9 17l-5-5"></path>
+					  </svg>
+					</span>Mixtape chillwave tumeric
+				  </p>
+				  <button class="flex items-center mt-auto text-white bg-blue-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-600 rounded">Button
+					<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+					  <path d="M5 12h14M12 5l7 7-7 7"></path>
+					</svg>
+				  </button>
+				  <p class="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p>
 				</div>
+			  </div>
 			</div>
-			
-		</div>
-		<svg
-              className="fill-current text-white hidden md:block"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 1440 320"
-            >
-              <path fill-opacity="1" d="M0,224L1440,32L1440,320L0,320Z"></path>
-            </svg>
-	</div>
+		  </div>
+		</section>
 	 
 	 );
 }

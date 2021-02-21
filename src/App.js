@@ -21,11 +21,11 @@ return (
       <Router>
             <Route exact strict path="/" component={Navbar}/>
             <Route exact strict path="/" component={Main} id="section0"/>
-            {/* <Route exact strict path="/" component={Clientes}/>
+            <Route exact strict path="/" component={Clientes}/>
             <Route exact strict path="/" component={QueEs} id="section1"/>
             <Route exact strict path="/" component={ComoFunciona} id="section2"/>
             <Route exact strict path="/" component={Precios} id="section3"/>
-            <Route exact strict path="/" component={Faq} id="section4"/>
+            {/*<Route exact strict path="/" component={Faq} id="section4"/>
             <Route exact strict path="/" component={Form} id="section5"/>
             <Route exact strict path="/" component={Footer}/>
           <Switch>
