@@ -4,150 +4,41 @@ import { Link } from 'react-scroll';
 const Footer = () => {
     return ( 
 
-        <footer className="relative bg-gray-300 pt-8 pb-6">
-        <div
-          className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-          style={{ height: "80px", transform: "translateZ(0)" }}
-        >
-          <svg
-            className="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon
-              className="text-gray-300 fill-current"
-              points="2560 0 2560 100 0 100"
-            ></polygon>
-          </svg>
-        </div>
-        <div className="container mx-auto px-4">
-          <div className="flex flex-wrap">
-            <div className="w-full lg:w-6/12 px-4">
-              <h4 className="text-3xl text-gray-700 font-semibold">
-                Dejanos tu email
-              </h4>
-              <h5 className="text-lg mt-0 mb-2 text-gray-700">
-                y te contactaremos dentro de las 24 hs.
-              </h5>
-              <div className="mt-6">
-                
-              <div>
-                  <form class="m-4 flex mx-auto">
-                    <input class="rounded-l-lg p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white " placeholder="tuemail@mail.com"/>
-                  <button class="px-8 rounded-r-lg bg-blue-500  text-white font-bold p-4 border-blue-600 border-t border-b border-r">Enviar</button>
-                </form>
-              </div>
-              </div>
-            </div>
-            <div className="w-full lg:w-6/12 px-4">
-              <div className="flex flex-wrap items-top mb-6">
-                <div className="w-full lg:w-4/12 px-4 ml-auto">
-                  <span className="block uppercase text-gray-600 text-sm font-semibold mb-2">
-                    Secciones
-                  </span>
-                  <ul className="list-unstyled">
-                    <li>
-                      <Link className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm cursor-pointer"
-                        to="section1"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}>
-                          ¿Qué Es?
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm cursor-pointer"
-                         to="section2"
-                         spy={true}
-                         smooth={true}
-                         offset={-70}
-                         duration={500}>
-                           ¿Cómo funciona?
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm cursor-pointer"
-                         to="section3"
-                         spy={true}
-                         smooth={true}
-                         offset={-70}
-                         duration={500}>
-                           Precio
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm cursor-pointer"
-                         to="section4"
-                         spy={true}
-                         smooth={true}
-                         offset={-70}
-                         duration={500}>Preguntas frecuentes
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm cursor-pointer"
-                         to="section5"
-                         spy={true}
-                         smooth={true}
-                         offset={-70}
-                         duration={500}>Contacto
-                      </Link>
-                    </li>
-
-                  </ul>
-                </div>
-                {/* <div className="w-full lg:w-4/12 px-4">
-                  <span className="block uppercase text-gray-600 text-sm font-semibold mb-2">
-                    Other Resources
-                  </span>
-                  <ul className="list-unstyled">
-                    <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md">MIT License
-                    </a>
-                    </li>
-                    <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                         href="https://creative-tim.com/terms">Terms & Conditions
-                      </a>
-                    </li>
-                    <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                         href="https://creative-tim.com/privacy">Privacy Policy
-                      </a>
-                    </li>
-                    <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                         href="https://creative-tim.com/contact-us">Contact Us
-                      </a>
-                    </li>
-                  </ul>
-
-                </div> */}
-              </div>
-            </div>
-          </div>
-          <hr className="my-6 border-gray-400" />
-          <div className="flex flex-wrap items-center md:justify-between justify-center">
-            <div className="w-full md:w-4/12 px-4 mx-auto text-center">
-              <div className="text-sm text-gray-600 font-semibold py-1">
-                Copyright © {new Date().getFullYear()}{" "}
-                <a
-                  href="https://www.lamdev.com.ar"
-                  className="text-gray-600 hover:text-gray-900"
-                >
-                  LAM/DEV
-                </a>.
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <footer class="text-gray-600 body-font">
+      <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          
+          <span class="ml-3 text-xl">Easy Turno</span>
+        </a>
+        <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021 Easy Turno —
+          <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@knyttneve</a>
+        </p>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          <a class="text-gray-500">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+              <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </footer>
      );
 }
  

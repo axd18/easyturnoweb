@@ -27,8 +27,8 @@ return (
             <Route exact strict path="/" component={Precios} id="section3"/>
             <Route exact strict path="/" component={FaqX} id="section4"/>
             <Route exact strict path="/" component={FormX} id="section5"/>
-            {/*<Route exact strict path="/" component={Footer}/>
-          <Switch>
+           <Route exact strict path="/" component={Footer}/>
+           {/*<Switch>
             <Route exact strict path="/" component={Arrow}/>
             <Route exact strict path="/suscripcion" component={Suscrip}/>
             <Route component={Error}/>
