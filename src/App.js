@@ -4,8 +4,8 @@ import Main from './components/Main';
 import Precios from './components/Precios';
 import QueEs from './components/QueEs';
 import ComoFunciona from './components/ComoFunciona';
-import Form from './components/Form';
-import Faq from './components/Faq';
+import FormX from './components/FormX';
+import FaqX from './components/FaqX';
 import Footer from './components/Footer';
 import Arrow from './components/Arrow';
 import Suscrip from './components/Suscrip';
@@ -25,9 +25,9 @@ return (
             <Route exact strict path="/" component={QueEs} id="section1"/>
             <Route exact strict path="/" component={ComoFunciona} id="section2"/>
             <Route exact strict path="/" component={Precios} id="section3"/>
-            {/*<Route exact strict path="/" component={Faq} id="section4"/>
-            <Route exact strict path="/" component={Form} id="section5"/>
-            <Route exact strict path="/" component={Footer}/>
+            <Route exact strict path="/" component={FaqX} id="section4"/>
+            <Route exact strict path="/" component={FormX} id="section5"/>
+            {/*<Route exact strict path="/" component={Footer}/>
           <Switch>
             <Route exact strict path="/" component={Arrow}/>
             <Route exact strict path="/suscripcion" component={Suscrip}/>

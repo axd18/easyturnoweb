@@ -6,7 +6,7 @@ const QueEs = () => {
         <section className="text-gray-600 body-font bg-gray-200">
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-col text-center w-full mb-20">
-                    <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4 text-gray-900">¿Qué es?</h1>
+                    <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4 text-gray-900" data-aos="fade-up">¿Qué es?</h1>
                 <div class="h-1 mx-auto bg-gradient-to-r from-purple-700 to-purple-500 w-24 mt-3 rounded mb-8" data-aos="fade-right"></div>
                 </div>
             <div class="container mx-auto flex px-5 md:flex-row flex-col items-center">
