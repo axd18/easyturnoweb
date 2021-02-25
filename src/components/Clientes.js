@@ -4,7 +4,7 @@ import bm from '../assets/img/logo-lubricentro.svg';
 
 const Clientes = () => {
     return (
-        <section className="text-gray-600 body-font bg-nos-eligieron bg-no-repeat">
+        <section className="text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-col text-center w-full mb-20">
                 <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4 text-gray-900">Nos eligieron</h1>
