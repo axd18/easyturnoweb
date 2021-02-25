@@ -3529,6 +3529,10 @@ video {
   background-image: url('/src/assets/img/test-background-respon.svg');
 }
 
+.bg-nos-eligieron {
+  background-image: url('/src/assets/img/background-nos-eligieron.svg');
+}
+
 .from-transparent {
   --gradient-from-color: transparent;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -22161,6 +22165,10 @@ video {
     background-image: url('/src/assets/img/test-background-respon.svg');
   }
 
+  .sm\:bg-nos-eligieron {
+    background-image: url('/src/assets/img/background-nos-eligieron.svg');
+  }
+
   .sm\:from-transparent {
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -40761,6 +40769,10 @@ video {
 
   .md\:bg-hero-respon {
     background-image: url('/src/assets/img/test-background-respon.svg');
+  }
+
+  .md\:bg-nos-eligieron {
+    background-image: url('/src/assets/img/background-nos-eligieron.svg');
   }
 
   .md\:from-transparent {
@@ -59365,6 +59377,10 @@ video {
     background-image: url('/src/assets/img/test-background-respon.svg');
   }
 
+  .lg\:bg-nos-eligieron {
+    background-image: url('/src/assets/img/background-nos-eligieron.svg');
+  }
+
   .lg\:from-transparent {
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -77965,6 +77981,10 @@ video {
 
   .xl\:bg-hero-respon {
     background-image: url('/src/assets/img/test-background-respon.svg');
+  }
+
+  .xl\:bg-nos-eligieron {
+    background-image: url('/src/assets/img/background-nos-eligieron.svg');
   }
 
   .xl\:from-transparent {

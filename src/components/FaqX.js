@@ -6,7 +6,7 @@ const FaqX = () => {
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-col text-center w-full mb-20">
                     <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4 text-gray-900" data-aos="fade-up">Preguntas Frecuentes</h1>
-                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Las preguntas que nos hacen con más frecuencia sobre como funciona Easy Turno y como podemos ayudarte.</p>
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500" data-aos="fade-up">Las preguntas que nos hacen con más frecuencia sobre como funciona Easy Turno y como podemos ayudarte.</p>
                 <div class="h-1 mx-auto bg-gradient-to-r from-purple-700 to-purple-500 w-24 mt-3 rounded mb-8" data-aos="fade-right"></div>
                 </div>
                 <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

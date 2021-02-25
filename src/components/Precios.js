@@ -8,6 +8,7 @@ const Precios = () => {
 			<div class="flex flex-col text-center w-full mb-20">
 			  <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Planes</h1>
 			  <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Elegí el plan que mejor se adapte a tu negocio.</p>
+			  <div class="h-1 mx-auto bg-gradient-to-r from-purple-700 to-purple-500 w-24 mt-3 rounded mb-8" data-aos="fade-right"></div>
 			</div>
 			<div class="flex flex-wrap -m-4 justify-center">
 			  <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
