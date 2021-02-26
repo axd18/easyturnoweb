@@ -2,7 +2,7 @@ import React from 'react';
 
 const FaqX = () => {
     return (
-        <section className="text-gray-600 body-font bg-gray-200">
+        <section className="text-gray-600 body-font bg-gray-200" id="section4">
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-col text-center w-full mb-20">
                     <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4 text-gray-900" data-aos="fade-up">Preguntas Frecuentes</h1>
