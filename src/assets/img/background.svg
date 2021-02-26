@@ -5,10 +5,10 @@
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
 </style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-85.6685" y1="606.5175" x2="2468.9924" y2="-323.303" gradientTransform="matrix(1 0 0 1 0 238.1102)">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-62.4179" y1="407.4917" x2="2492.2429" y2="1337.3121" gradientTransform="matrix(1 0 0 -1 0 1316)">
 	<stop  offset="8.122004e-03" style="stop-color:#7C28C4"/>
 	<stop  offset="0.53" style="stop-color:#9A6DFF"/>
 	<stop  offset="1" style="stop-color:#00BEFF"/>
 </linearGradient>
-<polygon class="st0" points="2500,717 0,1080 0,0 2500,0 "/>
+<polygon class="st0" points="2500,861.7 0,1080 0,0 2500,0 "/>
 </svg>
