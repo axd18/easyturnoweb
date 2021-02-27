@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return ( 
       
-      <nav className="bg-gray-900 bg-opacity-75 absolute w-full items-center justify-center px-2 md:bg-opacity-0">
+      <nav className="bg-gray-600  absolute w-full items-center justify-center px-2 md:bg-opacity-0">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <div
@@ -31,7 +31,7 @@ const Navbar = () => {
             }
             id="example-navbar-danger"
           >
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto ">
               <li className="nav-item">
                 <Link
                   className="px-3 py-2 flex items-center text-lg leading-snug text-white hover:opacity-75 cursor-pointer"

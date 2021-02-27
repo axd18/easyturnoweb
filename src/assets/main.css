@@ -3533,6 +3533,10 @@ video {
   background-image: url('/src/assets/img/background-nos-eligieron.svg');
 }
 
+.bg-background-2 {
+  background-image: url('/src/assets/img/background-2.svg');
+}
+
 .from-transparent {
   --gradient-from-color: transparent;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -22169,6 +22173,10 @@ video {
     background-image: url('/src/assets/img/background-nos-eligieron.svg');
   }
 
+  .sm\:bg-background-2 {
+    background-image: url('/src/assets/img/background-2.svg');
+  }
+
   .sm\:from-transparent {
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -40773,6 +40781,10 @@ video {
 
   .md\:bg-nos-eligieron {
     background-image: url('/src/assets/img/background-nos-eligieron.svg');
+  }
+
+  .md\:bg-background-2 {
+    background-image: url('/src/assets/img/background-2.svg');
   }
 
   .md\:from-transparent {
@@ -59381,6 +59393,10 @@ video {
     background-image: url('/src/assets/img/background-nos-eligieron.svg');
   }
 
+  .lg\:bg-background-2 {
+    background-image: url('/src/assets/img/background-2.svg');
+  }
+
   .lg\:from-transparent {
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -77985,6 +78001,10 @@ video {
 
   .xl\:bg-nos-eligieron {
     background-image: url('/src/assets/img/background-nos-eligieron.svg');
+  }
+
+  .xl\:bg-background-2 {
+    background-image: url('/src/assets/img/background-2.svg');
   }
 
   .xl\:from-transparent {

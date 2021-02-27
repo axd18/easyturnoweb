@@ -3,7 +3,7 @@ import React from 'react';
 const Precios = () => {
     return ( 
 
-		<section class="text-gray-600 body-font overflow-hidden" id="section3">
+		<section class="text-gray-600 body-font overflow-hidden bg-gray-200 md:bg-background-2 bg-no-repeat" id="section3">
 		  <div class="container px-5 py-24 mx-auto">
 			<div class="flex flex-col text-center w-full mb-20">
 			  <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Planes</h1>
@@ -12,7 +12,7 @@ const Precios = () => {
 			</div>
 			<div class="flex flex-wrap -m-4 justify-center">
 			  <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-				<div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+				<div class="h-full p-6 rounded-lg  flex flex-col relative overflow-hidden bg-white shadow-md">
 				  <h2 class="text-sm tracking-widest  mb-1 font-medium text-center">Plan</h2>
 				  <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none text-center font-medium">Básico</h1>
 				  <p class="flex items-center text-gray-600 mb-2">
@@ -58,7 +58,7 @@ const Precios = () => {
 				</div>
 			  </div>
 			  <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-				<div class="h-full p-6 rounded-lg border-2 border-blue-500 flex flex-col relative overflow-hidden">
+				<div class="h-full p-6 rounded-lg border-2 border-blue-500 flex flex-col relative overflow-hidden bg-white shadow-md">
 				  <span class="bg-blue-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">RECOMENDADO</span>
 				  <h2 class="text-sm tracking-widest title-font mb-1 font-medium text-center">Plan</h2>
 				  <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200 text-center font-medium">Premium</h1>

@@ -169,6 +169,7 @@ module.exports = {
       'hero-main': "url('/src/assets/img/background.svg')",
       'hero-respon': "url('/src/assets/img/test-background-respon.svg')",
       'nos-eligieron': "url('/src/assets/img/background-nos-eligieron.svg')",
+      'background-2': "url('/src/assets/img/background-2.svg')",
     },
     gradientColorStops: theme => theme('colors'),
     backgroundOpacity: theme => theme('opacity'),

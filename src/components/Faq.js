@@ -1,24 +1,15 @@
 import React from 'react';
 
-
 const Faq = () => {
-    return ( 
-    
-<div >
-      <section class="text-gray-700">
-        <div class="container px-5 py-20 mx-auto">
-          <div class="text-center mb-20">
-            <h1 class="text-center text-4xl text-gray-700 font-bold leading-snug" data-aos="fade-right" id="section4">
-              Preguntas Frecuentes
-            </h1>
-            <div
-                class="h-1 mx-auto bg-gradient-to-r from-purple-700 to-purple-500 w-24 mt-3 mb-6 rounded" data-aos="fade-right"
-            ></div>
-            <p class="text-center text-lg text-gray-700 mt-2 px-6" data-aos="fade-right">
-              Las preguntas que nos hacen con más frecuencia sobre como funciona Easy Turno y como podemos ayudarte.
-            </p>
-          </div>
-          <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+    return (
+        <section className="text-gray-600 body-font" id="section4">
+            <div className="container px-5 py-24 mx-auto">
+                <div className="flex flex-col text-center w-full mb-20">
+                    <h1 className="sm:text-3xl text-3xl font-medium title-font mb-4 text-gray-900" data-aos="fade-up">Preguntas Frecuentes</h1>
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500" data-aos="fade-up">Las preguntas que nos hacen con más frecuencia sobre como funciona Easy Turno y como podemos ayudarte.</p>
+                <div class="h-1 mx-auto bg-gradient-to-r from-purple-700 to-purple-500 w-24 mt-3 rounded mb-8" data-aos="fade-right"></div>
+                </div>
+                <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
             <div class="w-full lg:w-1/2 px-4 py-2" data-aos="fade-right">
               <h1 className=" text-2xl text-gray-700 font-bold text-gray-700 pb-4">Preguntas del que pide el turno</h1>
               <details class="mb-4">
@@ -103,10 +94,9 @@ const Faq = () => {
               </details>
             </div>
           </div>
-        </div>
-      </section>
-    </div>
-     );
+            </div>
+        </section>
+    );
 }
  
 export default Faq;

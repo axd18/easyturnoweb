@@ -11,12 +11,12 @@ const Clientes = () => {
                 <div class="h-1 mx-auto bg-gradient-to-r from-purple-700 to-purple-500 w-24 mt-3 rounded mb-8" data-aos="fade-right"></div>
                 </div>
                 <div className="flex flex-wrap -m-4 text-center justify-center">
-                    <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+                    <div className="p-4 md:w-1/4 sm:w-2/6 w-full">
                         <div className="px-4 py-6"  data-aos="fade-up">
                             <img src={peludos} className=""/>
                         </div>
                     </div>
-                    <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+                    <div className="p-4 md:w-1/4 sm:w-2/6 w-full">
                         <div className="px-4 py-6">
                             <img src={bm} className="" data-aos="fade-up" />
                         </div>
